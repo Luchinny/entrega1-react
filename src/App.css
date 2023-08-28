@@ -1,0 +1,41 @@
+.container{
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+.container__title{
+    color: rgb(211, 211, 211);
+    text-shadow: 0.10em 0.10em #F4F8AC;
+    font-size: 2rem;
+}
+.container__phrase{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #F4F8AC;
+    width: 100%;
+    max-width: 30em;
+    background-color: rgba(211, 211, 211, 0.849);
+    padding: 1em 2em;
+    line-height: 1.4;
+    border-radius: 0.7em;
+}
+.container__btn{
+    padding: 0.8em 1.2em;
+    border-radius: 0.9em;
+    font-size: 1.2rem;
+    background-color: rgba(211, 211, 211, 0.849);
+    opacity: 0.8;
+    transition: all 200ms ease;
+    border-bottom-style: dashed;
+    border-bottom-color: #F4F8AC;
+}
+.container__btn:hover{
+    opacity: 1;
+    transform: scale(1.010);
+    box-shadow: 0 0 0.8em #7E3030;
+    cursor: pointer;
+}
